@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Lobster&family=Pacifico&family=Poppins&display=swap');
+
+:root {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f6f5;
+}
+
+body {
+  background-color: #f8f6f5;
+}
+
+.card {
+  border: none;
+}
+
+.btn {
+  color: #00373e;
+}
+
+/* NAVRBAR - Header.jsx  */
+
+.nav-brand {
+  font-family: 'Lobster', cursive;
+}
+
+.nav-link {
+  color: #00373e;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  color: #00373e;
+  outline: 2px solid #fbd3b6;
+  border-radius: 99em;
+}
+
+.nav-brand:hover {
+  outline: none;
+}
+
+.nav-btn {
+  background-color: #fff;
+  font-weight: 600;
+  border-radius: 99em;
+}
+
+.nav-btn:hover {
+  color: #00373e;
+  background-color: #fbd3b6;
+}
+
+/* HERO SECTION -> HomePage.jsx */
+.hero {
+  min-height: 100vh;
+}
+
+.action-btn {
+  background-color: #cafff2;
+  border-radius: 99em;
+  padding: .875em 1.25em;
+  font-weight: 600;
+}
+
+.action-btn:hover {
+  background-color: #fbd3b6;
+  outline: #fbd3b6;
+}
+
+.card-bg {
+  color: #fff;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('../src/assets/blob-scene-haikei(1).png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-title {
+  font-size: 5rem;
+  font-family: 'Lobster', cursive;
+  letter-spacing: -.01em;
+  line-height: 1;
+  margin: .67em 0;
+}
+
+.card-text {
+  color: #cafff2;
+  font-size: 1.5rem;
+}
+
+/* ABOUT SECTION -> HomePage.jsx */
+.about {
+  color: #00373e;
+  min-height: 100vh;
+}
+
+.about-title {
+  font-size: 3.75rem;
+  font-weight: 600;
+}
+
+.card {
+  border-radius: 32px;
+}
+
+.about-card-img {
+  border-radius: 32px;
+}
+
+a {
+  text-decoration: none;
+  color: #00373e;
+  font-weight: 600;
+}
+
+.about-btn {
+  background-color: #fff;
+  border-radius: 99em;
+  padding: .875em 1.25em;
+  font-weight: 600;
+}
+
+.about-btn:hover {
+  background-color: #fff;
+}
+
+/* PROMOTIONS SECTION */
+.promotions-card {
+  border: none;
+  background-color: #fbd3b6;
+  color: #00373e;
+}
+
+.promotions-card p {
+  font-weight: 600;
+}
+
+@media only screen and (min-width: 992px) {
+  .promotions-card {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .promotions-card {
+    flex-direction: column;
+  }
+}
+
+/* QUOTE SECTION */
+.quote {
+  color: #00373e;
+  line-height: 1;
+}
+
+/* TARGET AUDIENCE SECTION */
+.target-audience {
+  color: #00373e;
+}
+
+@media only screen and (min-width: 992px) {
+  .double-card {
+    flex-direction: row;
+  }
+
+  .single-card {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .double-card {
+    flex-direction: column;
+  }
+
+  .hide-img-md {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 922px) {
+  .hide-img-md {
+    display: none;
+  }
+
+  .single-card {
+    flex-direction: column;
+  }
+}
+
+/* FAQ SECTION */
+.faq {
+  min-height: 100vh;
+}
+
+.faq-text {
+  color: #00373e;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+  .faq-title {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* FOOTER SECTION */
+.footer-card-1 {
+  color: #fff;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('../src/assets/blob-scene-haikei(1).png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-card-2 {
+  background: url('../src/assets/blob-haikei(1).png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-trademark {
+  cursor: text;
+}
+
+@media only screen and (max-width: 992px) {
+  .footer-container {
+    flex-direction: column;
+  }
+  .social-links-footer {
+    flex-direction: column;
+  }
+}
+
